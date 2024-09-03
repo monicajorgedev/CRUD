@@ -1,0 +1,19 @@
+GET http://localhost:3000/usuarios
+
+###
+GET http://localhost:3000/usuarios/Ryu
+
+###
+GET http://localhost:3000/
+
+###
+POST http://localhost:3000/usuarios
+Content-Type: application/json
+
+{
+    "nombre": "Data",
+    "edad": 28,
+    "lugarProcedencia": "Madrid"
+}
+
+###
